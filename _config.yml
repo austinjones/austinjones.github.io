@@ -23,12 +23,17 @@ linkedin_username: austinbaysjones
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: > # this will include new lines to allow paragraphs
   Hi, I'm Austin.  I'm a professional Backend Engineer, with extensive <mark>Java</mark> and <mark>Rust</mark> experience.
 
-  At work I design, build, and deploy <mark>Spring Boot</mark> services.  I've also done Systems work, mostly on <mark>AWS</mark>, deploying Dockerized applications on EC2, and ALB/ECS.
 
-  In my spare time I'm a Generative Artist (see [my portfolio](https://austinjones.onfabrik.com/portfolio/texture-from-nothing)).  I use Rust and GPUs to generate intricate images for canvas prints.  I use <mark>Machine Learning</mark>, where it fits.  I've focused on exploring Normalizing Flows, and have repositories in <mark>Pytorch</mark> and <mark>Swift for Tensorflow</mark>.
+  At work I design, build, and deploy <mark>Spring Boot</mark> services.  I've also done Systems work, mostly on <mark>AWS</mark>, 
+  deploying Dockerized applications on EC2, and ALB/ECS.
+
+
+  In my spare time I'm a Generative Artist (see [my portfolio](https://austinjones.onfabrik.com/portfolio/texture-from-nothing)).  
+  I use Rust and GPUs to generate intricate images for canvas prints.  I use <mark>Machine Learning</mark> to solve creative problems 
+  in <mark>Pytorch</mark> and <mark>Swift for Tensorflow</mark>.
 
 darkmode: false
 # Projects Section

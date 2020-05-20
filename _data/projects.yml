@@ -4,10 +4,15 @@
   # github: austinjones/dali-rs
   # quote: >
   #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  description: | # this will include new lines to allow paragraphs
-    Generating quality images for print on canvas is suprisingly difficult.  To avoid 'pixelation', just a 20x20" canvas requires 8k x 8k resolution (or more).  For large pieces (40" to 60"), you need extreme resolution.
+  description: > # this will include new lines to allow paragraphs
+    Generating quality images for print on canvas is suprisingly difficult.  To avoid 'pixelation', just a 20x20" 
+    canvas requires 8k x 8k resolution (or more).  For large pieces (40" to 60"), you need extreme resolution.
 
-    At these resolutions, performance is critical.  Dali is a GPU rendering library that leverages texture sampling & fragment shaders to generate rich texture at these resolutions.  It can generate instant previews, and production renders in a few minutes.
+
+    At these resolutions, performance is critical.  Dali is a GPU rendering library that leverages texture 
+    sampling & fragment shaders to generate rich texture at these resolutions.  It can generate instant previews, 
+    and production renders in a few minutes.
+
 
     To see it 'in production', see one of [my works](https://austinjones.onfabrik.com/portfolio/texture-from-nothing).
 
@@ -17,11 +22,19 @@
   # github: austinjones/dali-rs
   # quote: >
   #   An exploration of Normalizing Flows
-  description: | # this will include new lines to allow paragraphs
-    My interest in multi-dimensional density estimation began when I started developing methods to model color palettes as continuous density, not just a fixed list of colors.  After exploring many techniques, Normalizing Flows emerged as a promising technique with many uses for creative generation.
+  description: > # this will include new lines to allow paragraphs
+    My interest in multi-dimensional density estimation began when I started developing methods to model color palettes 
+    as continuous density, not just a fixed list of colors.  After exploring many techniques, Normalizing Flows emerged 
+    as a promising technique with many uses during creative generation.
+
 
     I implemented several types of Normalizing Flows in Pytorch and Swift for Tensorflow, and applied them to synthetic & real-world problems.
     
-    I developed a method for benchmarking Flow performance.  The intuition is that the Normalizing Flow objective minimizes the KL divergence between the data distribution, and the normalized data (under the change of variables theorem).  In real-world problems, the probability density of the data is not tractable.  However, if you choose source data with an analytic density function, you can generate a monte-carlo estimate of the KL divergence.
+
+    I developed a method for benchmarking Flow performance.  The intuition is that the Normalizing Flow objective minimizes 
+    the KL divergence between the data distribution, and the normalized data (under the change of variables theorem).  In real-world problems, 
+    the probability density of the data is not tractable.  However, if you choose source data with an analytic density function, you can
+    generate a monte-carlo estimate of the KL divergence.
+
 
     This method allows the rigorous benchmarking of model performance, and performance measurement at **any** layer.
