@@ -15,7 +15,7 @@
   job_title: Senior Designer
   dates: 2009-2015
   description: | # this will include new lines to allow paragraphs
-    I joined a small startup which saved struggling hospitals from bankruptcy.  We used automation & data analytics to systematically improve their financial health.
+    I joined a small startup which saved struggling hospitals from bankruptcy.  We used data analytics & workflow automation to systematically improve their financial health.
     - Built an application security program from the ground up.
     - Designed and built deployment pipelines for front-end, back-end, and job dispatch engines.
     - Designed and built a Java-based MVC controller framework.

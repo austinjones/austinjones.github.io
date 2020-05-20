@@ -5,12 +5,11 @@
   # quote: >
   #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   description: | # this will include new lines to allow paragraphs
-    Dali is a GPU rendering library that uses GPU texture sampling to generate high-quality digital paintings.
+    Dali is a GPU rendering library that uses texture sampling to generate high-quality digital paintings.
 
-    High Resolution output is critical for canvas prints, but most generative art frameworks (such as Processing) are slow at these resolutions.
+    High Resolution output is critical for canvas prints, but most generative art frameworks can't generate output at the needed resolution, or take hours to render.
 
     See an example on [GitHub](https://github.com/austinjones/dali-rs), or a one of [my works](https://austinjones.onfabrik.com/portfolio/texture-from-nothing).
-
 
 - layout: top-middle
   name: Normalizing Flows
