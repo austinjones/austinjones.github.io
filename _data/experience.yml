@@ -1,36 +1,4 @@
 - layout: left
-  company: Aetion, Inc
-  link: www.aetion.com
-  job_title: Senior Software Engineer
-  dates: 2016 - May 2020
-  description: | # this will include new lines to allow paragraphs
-    I moved back to Boston and joined Aetion, a startup which delivers quality evidence about the safety and effectiveness of drug interventions.
-    - Began on the Data Team, developing data connectors on large datasets (100s-1000s of GB compressed).
-    - Spent a year as the Systems Team, managing a rapidly growing production environment on AWS.
-    - Wrote the infrastructure for rapid development & deployment of new services (Microservice template, CloudFormation templates)
-    - Moved back to Java - refactoring a single-tenant Tomcat monolith into lightweight multi-tenant services.
-
-- layout: left
-  company: Avadyne Health
-  job_title: Senior Designer
-  dates: 2009-2015
-  description: | # this will include new lines to allow paragraphs
-    I joined a small startup which saved struggling hospitals from bankruptcy.  We used data analytics & workflow automation to systematically improve their financial health.
-    - Built an application security program from the ground up.
-    - Designed and built deployment pipelines for front-end, back-end, and job dispatch engines.
-    - Designed and built a Java-based MVC controller framework.
-    - Designed and built a distributed data import system optimized for real-time feeds.
-
-- layout: left
-  company: Harvard School of Public Health
-  link: www.drugepi.org/dope/about
-  job_title: Research Assistant
-  dates: 2008
-  description: | # this will include new lines to allow paragraphs
-    At the Department of Pharmacoepidemiology, a short internship turned into my full time job for the year.  Senior members of the department later founded Aetion.
-    - Designed and implemented applications which supported the ad-hoc analysis of pharmaceutical adverse reaction data.  Using the applications, researchers were able to quickly examine statistical indicators across large numbers of drugs, and identify areas for further study.
-
-- layout: left
   company: MIT Media Lab
   link: www.media.mit.edu/about
   job_title: Research Assistant
@@ -45,3 +13,35 @@
     - Implemented tools, applications, and data analysis software to effectively measure user productivity
     during disruptive interruptions. Built software to read interaction logs, and aggregate 'brand new'
     statistical measures of productivity over many contexts (such as Current Window or Current Task).
+
+- layout: left
+  company: Harvard School of Public Health
+  link: www.drugepi.org/dope/about
+  job_title: Research Assistant
+  dates: 2008
+  description: | # this will include new lines to allow paragraphs
+    At the Department of Pharmacoepidemiology, a short internship turned into my full time job for the year.  Senior members of the department later founded Aetion.
+    - Designed and implemented applications which supported the ad-hoc analysis of pharmaceutical adverse reaction data.  Using the applications, researchers were able to quickly examine statistical indicators across large numbers of drugs, and identify areas for further study.
+
+- layout: left
+  company: Avadyne Health
+  job_title: Senior Designer
+  dates: 2009-2015
+  description: | # this will include new lines to allow paragraphs
+    I joined a small startup which saved struggling hospitals from bankruptcy.  We used data analytics & workflow automation to systematically improve their financial health.
+    - Built an application security program from the ground up.
+    - Designed and built deployment pipelines for front-end, back-end, and job dispatch engines.
+    - Designed and built a Java-based MVC controller framework.
+    - Designed and built a distributed data import system optimized for real-time feeds.
+
+- layout: left
+  company: Aetion, Inc
+  link: www.aetion.com
+  job_title: Senior Software Engineer
+  dates: 2016 - May 2020
+  description: | # this will include new lines to allow paragraphs
+    I moved back to Boston and joined Aetion, a startup which delivers quality evidence about the safety and effectiveness of drug interventions.
+    - Began on the Data Team, developing data connectors on large datasets (100s-1000s of GB compressed).
+    - Spent a year as the Systems Team, managing a rapidly growing production environment on AWS.
+    - Wrote the infrastructure for rapid development & deployment of new services (Microservice template, CloudFormation templates)
+    - Moved back to Java - refactoring a single-tenant Tomcat monolith into lightweight multi-tenant services.

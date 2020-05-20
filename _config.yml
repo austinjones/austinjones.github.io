@@ -1,5 +1,5 @@
 # Site
-repository: austinjones/resume-theme
+repository: austinjones/austinjones.github.io
 favicon: images/favicon.ico
 
 # Personal info
@@ -37,7 +37,7 @@ about_content: > # this will include new lines to allow paragraphs
 
 darkmode: false
 # Projects Section
-# projects_title: Projects
+projects_title: Current Projects
 
 # Experience Section
 # experience_title: Experience
@@ -58,7 +58,7 @@ more_content: | # this will include new lines to allow paragraphs
 footer_show_references: true
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: austinjones/modern-resume-theme
 
 sass:
   sass_dir: _sass
