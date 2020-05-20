@@ -4,7 +4,7 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Austin Jones
-title: Backend Engineer
+title: // Backend Engineer
 email: austinbaysjones@gmail.com
 website: github.com/austinjones
 
@@ -26,10 +26,11 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Austin.  I'm a professional Backend Engineer, with extensive <mark>Java</mark> and <mark>Rust</mark> experience.
 
-  At work, I design, build, and deploy <mark>Spring Boot</mark> services to production.  I've also done Systems work, mostly on <mark>AWS</mark>, deploying Docker applications on ALB and ECS.
+  At work, I design, build, and deploy <mark>Spring Boot</mark> services.  I've also done Systems work, mostly on <mark>AWS</mark>, deploying Dockerized applications on EC2, and ALB/ECS.
 
-  In my spare time, I'm a Generative Artist (see [my portfolio](https://austinjones.onfabrik.com/portfolio/texture-from-nothing)).  I use Rust and GPUs to generate intricate images at very high resolution (8k by 8k+), for canvas prints.  I use <mark>Machine Learning</mark>, where it fits.  I've mostly explored <mark>Normalizing Flows</mark>, and have repositories in <mark>Pytorch</mark> and <mark>Swift for Tensorflow</mark>.
+  In my spare time, I'm a Generative Artist (see [my portfolio](https://austinjones.onfabrik.com/portfolio/texture-from-nothing)).  I use Rust and GPUs to generate intricate images at very high resolution (8k by 8k+), for canvas prints.  I use <mark>Machine Learning</mark>, where it fits.  I've mostly explored Normalizing Flows, and have repositories in <mark>Pytorch</mark> and <mark>Swift for Tensorflow</mark>.
 
+darkmode: false
 # Projects Section
 # projects_title: Projects
 

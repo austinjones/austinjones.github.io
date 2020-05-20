@@ -3,4 +3,100 @@
 ---
 
 @import 'modern-resume-theme';
+// from Color XL - 272 bright
+$color-bright-1: rgb(204, 191, 215);
+$color-bright-2: rgb(169, 140, 190);
+$color-bright-3: rgb(144, 102, 172);
+$color-bright-4: rgb(117,  64, 152);
+$color-bright-5: rgb( 71,  37, 107);
 
+// from Color XL - 272 light
+$color-light-3: rgb(216, 204, 229);
+
+// from Color XL - 272 dark
+$color-272dark-5: rgb(38, 0, 64);
+
+// from Color XL - 265 dbright
+$color-dark-1: rgb(189, 228, 231);
+$color-dark-2: rgb(129, 201, 206);
+$color-dark-3: rgb( 82, 169, 178);
+$color-dark-4: rgb( 46, 142, 158);
+$color-dark-5: rgb(  5, 102, 125);
+$color-xdark-5: rgb( 27, 81, 116);
+
+$color-dark-fabrik: rgb(196,255,253);
+
+
+ul.icons a:hover {
+  background: $color-light-3;
+}
+
+.button.button--sacnite {
+    color: $color-bright-3;
+}
+
+h1 {
+    color: $color-bright-5;
+    font-size: 30px;
+}
+
+h2 {
+    color: $color-bright-5;
+    font-size: 22px;
+}
+
+h3 {
+    color: $color-bright-3;
+    font-weight: normal;
+    border-bottom: dashed 2px #A98CBE
+}
+
+h4 {
+    color: $color-bright-5
+}
+
+.layout .details h4 {
+    font-weight: normal
+}
+
+.layout .details p {
+    font-size: 1.5rem
+}
+
+.layout .details a {
+    font-style: normal;
+}
+
+.layout .details p b {
+    font-style: lighter;
+    font-weight: 400;
+}
+
+mark { 
+    background-color: $color-bright-5
+}
+
+.dark h1 {
+    color: $color-dark-fabrik;
+}
+
+.dark h2 {
+    color: #DDD;
+}
+
+.dark h3 {
+    color: #DDD;
+    border-bottom: dashed 2px #DDD
+}
+
+.dark h4 {
+    color: #FFF
+}
+
+.dark ul.icons a:hover {
+  background: #333;
+}
+
+// .dark .icons i {
+//     color: $color-xdark-5;
+// }

@@ -5,7 +5,7 @@
   # quote: >
   #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   description: | # this will include new lines to allow paragraphs
-    Dali is a GPU rendering library that uses texture sampling to generate high-quality digital paintings.
+    Dali is a GPU rendering library that leverages texture sampling to generate high-quality digital paintings.
 
     High Resolution output is critical for canvas prints, but most generative art frameworks can't generate output at the needed resolution, or take hours to render.
 
@@ -18,6 +18,6 @@
   quote: >
     An exploration of Normalizing Flows
   description: | # this will include new lines to allow paragraphs
-    I implemented several types of Normalizing Flows in Swift for Tensorflow, and Pytorch.  My goal was to apply normalizing flows to small-scale problems, and develop a framework for benchmarking their performance.
+    I implemented several types of Normalizing Flows in Pytorch, and Swift for Tensorflow.  My goal was to apply normalizing flows to small-scale problems, and develop a framework for benchmarking their performance.
 
     I discovered a method which can measure performance at any layer, not just at the end of the network.
