@@ -28,14 +28,14 @@
   job_title: Senior Designer
   dates: 2009-2015
   description: | # this will include new lines to allow paragraphs
-    I joined a small startup which saved struggling hospitals from bankruptcy.  We used data analytics & workflow automation to systematically improve their financial health.
+    I joined a small startup in San Diego which saved struggling hospitals from bankruptcy.  We used data analytics & workflow automation to systematically improve their financial health.
     - Built an application security program from the ground up.
     - Designed and built deployment pipelines for front-end, back-end, and job dispatch engines.
     - Designed and built a Java-based MVC controller framework.
     - Designed and built a distributed data import system optimized for real-time feeds.
 
 - layout: left
-  company: Aetion, Inc
+  company: Aetion
   link: www.aetion.com
   job_title: Senior Software Engineer
   dates: 2016 - May 2020
