@@ -27,9 +27,8 @@
   job_title: Research Assistant
   dates: 2008
   description: | # this will include new lines to allow paragraphs
-    At the Department of Pharmacoepidemiology, I built applications which supported the ad-hoc analysis of pharmaceutical adverse reaction data.  
-    
-    The applications allowed researchers to quickly examine statistical indicators across large numbers of drugs, and identify areas for further study.
+    At the Department of Pharmacoepidemiology, a short internship turned into my full time job for the year.  Senior members of the department later founded Aetion.
+    - Designed and implemented applications which supported the ad-hoc analysis of pharmaceutical adverse reaction data.  Using the applications, researchers were able to quickly examine statistical indicators across large numbers of drugs, and identify areas for further study.
 
 - layout: left
   company: MIT Media Lab
