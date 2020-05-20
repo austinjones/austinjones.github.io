@@ -28,7 +28,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   At work I design, build, and deploy <mark>Spring Boot</mark> services.  I've also done Systems work, mostly on <mark>AWS</mark>, deploying Dockerized applications on EC2, and ALB/ECS.
 
-  In my spare time I'm a Generative Artist (see [my portfolio](https://austinjones.onfabrik.com/portfolio/texture-from-nothing)).  I use Rust and GPUs to generate intricate images at very high resolution (8k by 8k+), for canvas prints.  I use <mark>Machine Learning</mark>, where it fits.  I've focused on exploring Normalizing Flows, and have repositories in <mark>Pytorch</mark> and <mark>Swift for Tensorflow</mark>.
+  In my spare time I'm a Generative Artist (see [my portfolio](https://austinjones.onfabrik.com/portfolio/texture-from-nothing)).  I use Rust and GPUs to generate intricate images for canvas prints.  I use <mark>Machine Learning</mark>, where it fits.  I've focused on exploring Normalizing Flows, and have repositories in <mark>Pytorch</mark> and <mark>Swift for Tensorflow</mark>.
 
 darkmode: false
 # Projects Section

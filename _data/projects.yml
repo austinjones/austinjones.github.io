@@ -5,19 +5,23 @@
   # quote: >
   #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   description: | # this will include new lines to allow paragraphs
-    Dali is a GPU rendering library that leverages texture sampling to generate high-quality digital paintings.
+    Generating quality images for print on canvas is suprisingly difficult.  To avoid 'pixelation', just a 20x20" canvas requires 8k x 8k resolution (or more).  For large pieces (40" to 60"), you need extreme resolution.
 
-    High Resolution output is critical for canvas prints, but most generative art frameworks either can't generate output at the needed resolution, or they take hours to render.
+    At these resolutions, performance is critical.  Dali is a GPU rendering library that leverages texture sampling & fragment shaders to generate rich texture at these resolutions.  It can generate instant previews, and production renders in a few minutes.
 
-    See an example on [GitHub](https://github.com/austinjones/dali-rs) or a one of [my works](https://austinjones.onfabrik.com/portfolio/texture-from-nothing).
+    To see it 'in production', see one of [my works](https://austinjones.onfabrik.com/portfolio/texture-from-nothing).
 
 - layout: top-middle
   name: Normalizing Flows
   link: github.com/austinjones/normalizing-flows
   # github: austinjones/dali-rs
-  quote: >
-    An exploration of Normalizing Flows
+  # quote: >
+  #   An exploration of Normalizing Flows
   description: | # this will include new lines to allow paragraphs
-    I implemented several types of Normalizing Flows in Pytorch and Swift for Tensorflow.  My goal was to apply normalizing flows to small-scale problems and develop a framework for benchmarking their performance.
+    My interest in multi-dimensional density estimation began when I started developing methods to model color palettes as continuous density, not just a fixed list of colors.  After exploring many techniques, Normalizing Flows emerged as a promising technique with many uses for creative generation.
 
-    I discovered a method which can measure performance at any layer, not just at the end of the network.
+    I implemented several types of Normalizing Flows in Pytorch and Swift for Tensorflow, and applied them to synthetic & real-world problems.
+    
+    I developed a method for benchmarking Flow performance.  The intuition is that the Normalizing Flow objective minimizes the KL divergence between the data distribution, and the normalized data (under the change of variables theorem).  In real-world problems, the probability density of the data is not tractable.  However, if you choose source data with an analytic density function, you can generate a monte-carlo estimate of the KL divergence.
+
+    This method allows the rigorous benchmarking of model performance, and performance measurement at **any** layer.

@@ -7,8 +7,8 @@
     I moved back to Boston and joined Aetion, a startup which delivers quality evidence about the safety and effectiveness of drug interventions.
     - Began on the Data Team, developing data connectors on large datasets (100s-1000s of GB compressed).
     - Spent a year as the Systems Team, managing a rapidly growing production environment on AWS.
-    - Wrote the infrastructure for rapid development & deployment of new services (repo template, AWS templates)
-    - Moved back to Java - moving functionality from a single-tenant Tomcat monolith into multi-tenant services.
+    - Wrote the infrastructure for rapid development & deployment of new services (Microservice template, CloudFormation templates)
+    - Moved back to Java - refactoring a single-tenant Tomcat monolith into lightweight multi-tenant services.
 
 - layout: left
   company: Avadyne Health
