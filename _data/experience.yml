@@ -1,0 +1,48 @@
+- layout: left
+  company: Aetion, Inc
+  link: www.aetion.com
+  job_title: Senior Software Engineer
+  dates: 2016 - May 2020
+  description: | # this will include new lines to allow paragraphs
+    I moved back to Boston and joined Aetion, a startup which delivered quality evidence about the safety and effectiveness of drug interventions.
+    - Began on the Data Team, developing data connectors on large datasets (100s-1000s of GB compressed).
+    - Spent a year as the Systems Team, managing a rapidly growing production environment on AWS.
+    - Wrote the infrastructure for rapid development & deployment of new services (repo template, AWS templates)
+    - Moved back to Java - moving functionality from a single-tenant Tomcat monolith into multi-tenant services.
+
+- layout: left
+  company: Avadyne Health
+  job_title: Senior Designer
+  dates: 2009-2015
+  description: | # this will include new lines to allow paragraphs
+    I began my career at Avadyne Health, a small startup in San Diego.  We made our living saving hospitals from bankrupcy, using analytics to improve their financial health.
+    - Built an application security program from the ground up.
+    - Designed and built deployment pipelines for front-end, back-end, and job dispatch engines.
+    - Designed and built a Java-based MVC controller framework.
+    - Designed and built a distributed data import system optimized for real-time feeds.
+
+- layout: left
+  company: Harvard School of Public Health
+  link: www.drugepi.org/dope/about
+  job_title: Research Assistant
+  dates: 2008
+  quote: > 
+    Media Lab designers, engineers, artists, and scientists strive to create technologies and experiences that enable people to understand and transform their lives, communities, and environments.
+  description: | # this will include new lines to allow paragraphs
+    I worked with Sebastian Schneeweiss at the Harvard School of Public Health, building applications which supported the ad-hoc analysis of pharmaceutical adverse reaction data, allowing researches to quickly examine statistical indicators across large numbers of drugs, and identify areas for further study.
+
+- layout: left
+  company: MIT Media Lab
+  link: www.media.mit.edu/about
+  job_title: Research Assistant
+  dates: 2006-2008
+  quote: > 
+    Media Lab designers, engineers, artists, and scientists strive to create technologies and experiences that enable people to understand and transform their lives, communities, and environments.
+  description: | # this will include new lines to allow paragraphs
+    I spent my high school internship at the MIT Media Lab, assisting in research on human-computer interaction.
+    - Simplified the use of and maintained a driving simulator designed for research applications. Built
+    software to transform XML descriptions of driving worlds into the STISIM tabular world definition
+    format, providing the user stochastic macros to generate rich world definitions from simple input.
+    - Implemented tools, applications, and data analysis software to effectively measure user productivity
+    during disruptive interruptions. Built software to read interaction logs, and aggregate 'brand new'
+    statistical measures of productivity over many contexts (such as Current Window or Current Task).

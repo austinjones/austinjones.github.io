@@ -1,0 +1,61 @@
+# Site
+repository: austinjones/resume-theme
+favicon: images/favicon.ico
+
+# Personal info
+name: Austin Jones
+title: Senior Software Engineer
+email: austinbaysjones@gmail.com
+website: github.com/austinjones
+
+# Social links
+# twitter_username: facespics
+github_username:  austinjones
+# dribbble_username: 
+# facebook_username: 
+# flickr_username: 
+# instagram_username: 
+linkedin_username: austinbaysjones
+# pinterest_username: 
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm Austin.  I'm a professional Backend Engineer, with extensive <mark>Java</mark> and <mark>Rust</mark> experience.
+
+  At work, I design, build, and deploy <mark>Spring Boot</mark> services to production.  I've also done Systems work, mostly on <mark>AWS</mark>, deploying Docker applications on ALB and ECS.
+
+  In my spare time, I'm a Generative Artist (see [my portfolio](https://austinjones.onfabrik.com/portfolio/texture-from-nothing)).  I use Rust and GPUs to generate intricate images at very high resolution (8k by 8k+), for canvas prints.  I use <mark>Machine Learning</mark>, where it fits.  Mostly generative models, such as <mark>Normalizing Flows</mark> and <mark>GAN</mark>.  I have portfolio repositories in <mark>Pytorch</mark> and <mark>Swift for Tensorflow</mark>.
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Adventures on my <mark>Onewheel</mark>
+   - PC gaming <mark>Steam</mark>
+   - Cooking
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

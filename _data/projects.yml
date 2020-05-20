@@ -1,0 +1,26 @@
+- layout: top-middle
+  name: Dali Renderer
+  link: github.com/austinjones/dali-rs
+  # github: austinjones/dali-rs
+  # quote: >
+  #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  description: | # this will include new lines to allow paragraphs
+    Dali is a GPU rendering library that uses GPU texture sampling to generate high-quality digital paintings.
+
+    High Resolution output is critical for canvas prints, but most generative art frameworks (such as Processing) are slow at these resolutions.
+
+    See an example on [GitHub](https://github.com/austinjones/dali-rs), or a one of [my works](https://austinjones.onfabrik.com/portfolio/texture-from-nothing).
+
+
+- layout: top-middle
+  name: Normalizing Flows
+  link: github.com/austinjones/normalizing-flows
+  # github: austinjones/dali-rs
+  # quote: >
+  #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  description: | # this will include new lines to allow paragraphs
+    An exploration of Normalizing Flows, with benchmarking rigs built in Jupyter notebooks. I discovered a few interesting things:
+
+    - A few novel non-linear activation functions that are fully invertible, and have analytic derivatives.  Softsquare (polynomial) and Softlog (exponential).
+
+    - A method of benchmarking flow performance at each intermediate layer.  If you generate synthetic data from a known distribution, you can calculate the approximate KL divergence between the true distribution, and the intermediate values (under the normal distribution).
