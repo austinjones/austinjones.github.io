@@ -4,7 +4,7 @@
   job_title: Senior Software Engineer
   dates: 2016 - May 2020
   description: | # this will include new lines to allow paragraphs
-    I moved back to Boston and joined Aetion, a startup which delivered quality evidence about the safety and effectiveness of drug interventions.
+    I moved back to Boston and joined Aetion, a startup which delivers quality evidence about the safety and effectiveness of drug interventions.
     - Began on the Data Team, developing data connectors on large datasets (100s-1000s of GB compressed).
     - Spent a year as the Systems Team, managing a rapidly growing production environment on AWS.
     - Wrote the infrastructure for rapid development & deployment of new services (repo template, AWS templates)
@@ -15,7 +15,7 @@
   job_title: Senior Designer
   dates: 2009-2015
   description: | # this will include new lines to allow paragraphs
-    I began my career at Avadyne Health, a small startup in San Diego.  We made our living saving hospitals from bankrupcy, using analytics to improve their financial health.
+    I joined a small startup which saved struggling hospitals from bankruptcy.  We used automation & data analytics to systematically improve their financial health.
     - Built an application security program from the ground up.
     - Designed and built deployment pipelines for front-end, back-end, and job dispatch engines.
     - Designed and built a Java-based MVC controller framework.
@@ -26,10 +26,10 @@
   link: www.drugepi.org/dope/about
   job_title: Research Assistant
   dates: 2008
-  quote: > 
-    Media Lab designers, engineers, artists, and scientists strive to create technologies and experiences that enable people to understand and transform their lives, communities, and environments.
   description: | # this will include new lines to allow paragraphs
-    I worked with Sebastian Schneeweiss at the Harvard School of Public Health, building applications which supported the ad-hoc analysis of pharmaceutical adverse reaction data, allowing researches to quickly examine statistical indicators across large numbers of drugs, and identify areas for further study.
+    At the Department of Pharmacoepidemiology, I built applications which supported the ad-hoc analysis of pharmaceutical adverse reaction data.  
+    
+    The applications allowed researchers to quickly examine statistical indicators across large numbers of drugs, and identify areas for further study.
 
 - layout: left
   company: MIT Media Lab

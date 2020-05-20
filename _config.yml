@@ -4,7 +4,7 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Austin Jones
-title: Senior Software Engineer
+title: Backend Engineer
 email: austinbaysjones@gmail.com
 website: github.com/austinjones
 
@@ -28,7 +28,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   At work, I design, build, and deploy <mark>Spring Boot</mark> services to production.  I've also done Systems work, mostly on <mark>AWS</mark>, deploying Docker applications on ALB and ECS.
 
-  In my spare time, I'm a Generative Artist (see [my portfolio](https://austinjones.onfabrik.com/portfolio/texture-from-nothing)).  I use Rust and GPUs to generate intricate images at very high resolution (8k by 8k+), for canvas prints.  I use <mark>Machine Learning</mark>, where it fits.  Mostly generative models, such as <mark>Normalizing Flows</mark> and <mark>GAN</mark>.  I have portfolio repositories in <mark>Pytorch</mark> and <mark>Swift for Tensorflow</mark>.
+  In my spare time, I'm a Generative Artist (see [my portfolio](https://austinjones.onfabrik.com/portfolio/texture-from-nothing)).  I use Rust and GPUs to generate intricate images at very high resolution (8k by 8k+), for canvas prints.  I use <mark>Machine Learning</mark>, where it fits.  I've mostly explored <mark>Normalizing Flows</mark>, and have repositories in <mark>Pytorch</mark> and <mark>Swift for Tensorflow</mark>.
 
 # Projects Section
 # projects_title: Projects
@@ -42,9 +42,10 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  When I'm not working, my interests are:
    - Adventures on my <mark>Onewheel</mark>
-   - PC gaming <mark>Steam</mark>
+   - PC gaming
+   - Jazz Piano
    - Cooking
 
 # Footer
