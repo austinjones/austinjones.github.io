@@ -1,17 +1,30 @@
 - layout: left
-  name: Homeschooling
+  name: Homeschool
   dates: 2000 - 2008
-  # qualification: BSc Computer Science
+  qualification: Harvard Extension & MIT
   # quote: >
   #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
   description: >
     Since third grade I have been homeschooled in the Boston area which has an active and diverse homeschooling community.
-
-
     Homeschooling gave me the flexibility and time to study my passions: Mathematics, Music and Programming. 
-    I advanced quickly and beginning in my early teens, I started taking Harvard Extension classes which provided 
-    a great resource for more formal learning on diverse subjects including Animal Psychology, English, 
-    Mathematics, and Musical Composition.
 
+- layout: left
+  name: Harvard Extension
+  dates: 2002 - 2007
+  description: |
+    In my early teens, I started taking Harvard Extension classes which provided 
+    a great resource for more formal learning on diverse subjects, including:
+    - Animal Psychology
+    - Technical Writing
+    - Mathematics: Precalculus, Calculus, Discrete Mathematics
+    - Musical Composition
 
+- layout: left
+  name: MIT / 
+    Harvard School of Public Health
+  dates: 2006, 2008
+  description: |
     I was also able to pursue high school internships at the MIT Media Lab and Harvard School of Public Health.
+    And I audited graduate courses:
+    - Industrial Design at MIT
+    - Pharmacoepidemiology at Harvard
