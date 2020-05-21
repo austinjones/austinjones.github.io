@@ -3,10 +3,10 @@
   link: www.media.mit.edu/about
   job_title: Research Assistant
   dates: 2006-2008
-  quote: > 
-    Media Lab designers, engineers, artists, and scientists strive to create technologies and experiences that enable people to understand and transform their lives, communities, and environments.
+  # quote: > 
+  #   Media Lab designers, engineers, artists, and scientists strive to create technologies and experiences that enable people to understand and transform their lives, communities, and environments.
   description: | # this will include new lines to allow paragraphs
-    I spent my high school internship at the MIT Media Lab, assisting in research on human-computer interaction.
+    My first job was at the MIT Media Lab, assisting in research on human-computer interaction.
     - Simplified the use of and maintained a driving simulator designed for research applications. Built
     software to transform XML descriptions of driving worlds into the STISIM tabular world definition
     format, providing the user stochastic macros to generate rich world definitions from simple input.
