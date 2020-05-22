@@ -31,8 +31,8 @@
     I implemented several types of Normalizing Flows in Pytorch and Swift for Tensorflow, and applied them to synthetic & real-world problems.
     
 
-    I developed a method for benchmarking Flow performance.  The intuition is that the Normalizing Flow objective minimizes 
-    the KL divergence between the data distribution, and the normalized data (under the change of variables theorem).  In real-world problems, 
+    I developed a method for benchmarking Flow performance.  The Normalizing Flow objective minimizes 
+    the KL divergence between the data distribution and the normalized data (under the change of variables theorem).  In real-world problems, 
     the probability density of the data is not tractable.  However, if you choose source data with an analytic density function, you can
     generate a monte-carlo estimate of the KL divergence.
 

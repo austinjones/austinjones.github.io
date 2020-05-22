@@ -24,8 +24,9 @@ $color-dark-4: rgb( 46, 142, 158);
 $color-dark-5: rgb(  5, 102, 125);
 $color-xdark-5: rgb( 27, 81, 116);
 
+$color-background-fabrik: rgb(25, 25, 25);
 $color-dark-fabrik: rgb(196,255,253);
-
+$color-light-fabrik: rgb(207, 207, 207);
 
 ul.icons a:hover {
   background: $color-light-3;
@@ -48,19 +49,19 @@ h2 {
 h3 {
     color: $color-bright-3;
     font-weight: normal;
-    border-bottom: dashed 2px #A98CBE
+    border-bottom: dashed 2px #A98CBE;
 }
 
 h4 {
-    color: $color-bright-5
+    color: $color-bright-5;
 }
 
 .layout .details h4 {
-    font-weight: normal
+    font-weight: normal;
 }
 
 .layout .details p {
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 
 .layout .details a {
@@ -73,7 +74,11 @@ h4 {
 }
 
 mark { 
-    background-color: $color-bright-5
+    background-color: $color-bright-5;
+}
+
+.dark body {
+    background: $color-background-fabrik;
 }
 
 .dark h1 {
@@ -81,16 +86,16 @@ mark {
 }
 
 .dark h2 {
-    color: #DDD;
+    color: $color-light-fabrik;
 }
 
 .dark h3 {
-    color: #DDD;
-    border-bottom: dashed 2px #DDD
+    color: #FFF;
+    border-bottom: dashed 2px $color-light-fabrik;
 }
 
 .dark h4 {
-    color: #FFF
+    color: $color-light-fabrik;
 }
 
 .dark ul.icons a:hover {
