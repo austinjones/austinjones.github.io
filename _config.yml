@@ -33,7 +33,7 @@ about_content: > # this will include new lines to allow paragraphs
 
   In my spare time I'm a Generative Artist (see [my portfolio](https://austinjones.onfabrik.com/portfolio/texture-from-nothing)).  
   I use Rust and GPUs to generate intricate images for canvas prints.  I use <mark>Machine Learning</mark> to solve creative problems 
-  in <mark>Pytorch</mark> and <mark>Swift for Tensorflow</mark>.
+  in <mark>Pytorch</mark>.
 
 darkmode: false
 # Projects Section
