@@ -1,10 +1,32 @@
 - layout: top-middle
+  name: Tab
+  link: github.com/austinjones/tab-rs
+  description: >
+    Tab is an intuitive, config-driven terminal multiplexer designed for software & systems engineers.  
+    Tab is designed to navigate between contexts, rather than multi-task.  And designed to provide persistent historical context,
+    rather than throwaway workspaces.
+
+
+    Tab is fast: tabs launch in 50ms, and reconnect in 10ms. Keyboard latency (stdin to stdout) is under 5ms.
+
+- layout: top-middle
+  name: Lifeline
+  link: github.com/austinjones/lifeline-rs
+  description: >
+    Lifeline is a dependency injection library for async message-based applications, 
+    written in Rust and inspired by [Guice](https://github.com/google/guice/wiki/Motivation).  
+    Lifeline uses the DI pattern to reduce direct dependencies between components of an application, 
+    allowing individual components to be more easily tested, refactored, or replaced.
+
+
+    Rather than using Interfaces/Traits as the abstraction, Lifeline uses concrete message types.
+    Lifeline applications define event-based, reactive tasks which wait for messages, maintain state
+    on their stack, and transmit output messages.
+
+- layout: top-middle
   name: Dali Renderer
   link: github.com/austinjones/dali-rs
-  # github: austinjones/dali-rs
-  # quote: >
-  #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  description: > # this will include new lines to allow paragraphs
+  description: > 
     Generating quality images for print on canvas is suprisingly difficult.  To avoid 'pixelation', a 20x20" 
     canvas requires 8k x 8k resolution (or more).  For large pieces (40" to 60") you need extreme resolution.
 
@@ -15,26 +37,3 @@
 
 
     To see it 'in production', see one of [my works](https://austinjones.onfabrik.com/portfolio/texture-from-nothing).
-
-- layout: top-middle
-  name: Normalizing Flows
-  link: github.com/austinjones/normalizing-flows
-  # github: austinjones/dali-rs
-  # quote: >
-  #   An exploration of Normalizing Flows
-  description: > # this will include new lines to allow paragraphs
-    My interest in multi-dimensional density estimation began when I started developing methods to model color palettes 
-    as continuous density, not just a fixed list of colors.  After exploring many techniques, Normalizing Flows emerged 
-    as a promising technique with many uses during creative generation.
-
-
-    I implemented several types of Normalizing Flows in Pytorch and Swift for Tensorflow, and applied them to synthetic & real-world problems.
-    
-
-    I developed a method for benchmarking Flow performance.  The Normalizing Flow objective minimizes 
-    the KL divergence between the data distribution and the normalized data (under the change of variables theorem).  In real-world problems, 
-    the probability density of the data is not tractable.  However, if you choose source data with an analytic density function, you can
-    generate a monte-carlo estimate of the KL divergence.
-
-
-    This method allows the rigorous benchmarking of model performance, and performance measurement at **any** layer.

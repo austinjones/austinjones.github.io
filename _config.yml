@@ -5,8 +5,8 @@ favicon: images/favicon.ico
 # Personal info
 name: Austin Jones
 title: // Backend Engineer
-email: austinbaysjones@gmail.com
-website: github.com/austinjones
+email: implAustin@gmail.com
+website: implAustin.hashnode.dev
 
 # Social links
 # twitter_username: 
@@ -18,16 +18,15 @@ github_username:  austinjones
 linkedin_username: austinbaysjones
 # pinterest_username: 
 # youtube_username: 
-# googleplus_username: +
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: > # this will include new lines to allow paragraphs
-  Hi, I'm Austin.  I'm a professional Backend Engineer, with extensive <mark>Java</mark> and <mark>Rust</mark> experience.
+  Hi, I'm Austin.  I'm a professional Backend Engineer, with extensive <mark>Rust</mark> and <mark>Java</mark> experience.
 
 
-  At work I design, build, and deploy <mark>Spring Boot</mark> services.  I've also done Systems work, mostly on <mark>AWS</mark>, 
+  At work I design, build, and deploy <mark>Rust</mark> and <mark>Spring Boot</mark> services.  I've also done Systems work, mostly on <mark>AWS</mark>, 
   deploying Dockerized applications on EC2, and ALB/ECS.
 
 

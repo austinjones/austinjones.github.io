@@ -45,3 +45,13 @@
     - Managed a rapidly growing production environment on AWS, as the systems lead.
     - Wrote the infrastructure for rapid development & deployment of new services (Microservice template, CloudFormation templates)
     - Moved back to Java, and refactored a single-tenant Tomcat monolith into lightweight multi-tenant services.
+
+- layout: left
+  company: ThreatX
+  link: www.threatx.com
+  job_title: Senior Software Engineer
+  dates: Aug 2020 - Present
+  description: |
+    I joined ThreatX, an application security company with an extremely innovative solution for web application & API protection.
+    - Accelerated feature development & web service delivery for a large Rust API application.
+    - Set up Postman, Github Actions, and other tools to help the team deliver great software.
